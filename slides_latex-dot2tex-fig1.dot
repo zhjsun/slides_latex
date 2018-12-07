@@ -1,0 +1,9 @@
+            digraph {
+                rankdir = LR;
+                src [shape = box, label = "源文件"];
+                compile [shape = box, label = "编译"];
+                pdf [shape = box, label = "pdf 文档"];
+
+                src -> compile -> pdf;
+            }
+        

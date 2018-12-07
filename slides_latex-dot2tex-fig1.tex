@@ -1,0 +1,10 @@
+
+\begin{tikzpicture}[>=latex,line join=bevel,]
+%%
+\node (compile) at (122.0bp,18.0bp) [draw,rectangle] {编译};
+  \node (src) at (29.5bp,18.0bp) [draw,rectangle] {源文件};
+  \node (pdf) at (219.0bp,18.0bp) [draw,rectangle] {pdf 文档};
+  \draw [->] (compile) ..controls (157.0bp,18.0bp) and (165.95bp,18.0bp)  .. (pdf);
+  \draw [->] (src) ..controls (67.216bp,18.0bp) and (76.22bp,18.0bp)  .. (compile);
+%
+\end{tikzpicture}
